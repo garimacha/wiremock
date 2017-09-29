@@ -27,7 +27,7 @@ public class MockServiceIT extends startService {
     }
 
     @Test
-    public void nabbitResponse() throws IOException {
+    public void testTaxResponse() throws IOException {
         //this is calling the stub after the service is started
         getStub();
 
